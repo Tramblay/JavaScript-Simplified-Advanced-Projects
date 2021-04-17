@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Minesweeper</title>
+  <script src="script.js" type="module" defer></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h3 class="title">Minesweeper</h3>
   <div class="subtext">
-    Mines Left: 10
+    Mines Left: <span data-mine-count></span> 
   </div>
   <div class="board"></div>
 </body>
